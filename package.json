@@ -3,12 +3,39 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
+    "@metismenu/react": "^0.0.3",
+    "@react-jvectormap/core": "^1.0.4",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "apexcharts": "^3.52.0",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.4",
+    "gridjs": "^6.2.0",
+    "gridjs-react": "^6.1.1",
+    "json2csv": "^6.0.0-alpha.2",
+    "metismenujs": "^1.4.0",
+    "moment": "^2.30.1",
+    "primeflex": "^3.3.1",
+    "primereact": "^10.8.2",
     "react": "^18.3.1",
+    "react-apexcharts": "^1.4.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-csv": "^2.2.2",
     "react-dom": "^18.3.1",
+    "react-dropdown": "^1.11.0",
+    "react-dropzone": "^14.2.3",
+    "react-export-table-to-excel": "^1.0.6",
+    "react-flatpickr": "^3.10.13",
+    "react-jvectormap": "^0.0.15",
+    "react-router-dom": "^6.26.1",
     "react-scripts": "5.0.1",
+    "simplebar-react": "^3.2.6",
+    "swiper": "^11.1.10",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +61,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.77.8"
   }
 }

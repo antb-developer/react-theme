@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.jvectormap-container {
+    height:100%;
+    /* width:70%; */
+}
+
+
+.jvectormap-container + .jvectormap-container {
+  display: none;
+}
+
+
+.dropzone {
+  text-align: center;
+  padding-top: 22px;
+  padding-left: 13px;
+}
+
+#sidebar-menu .has-arrow:after {
+    content: "" !important;
+    right: 15px;
+    top: 50% !important;
+}
+
+#sidebar-menu .mm-active>.has-arrow:after {
+  transform: rotate(-45deg) translate(0, -50%) !important;
+}
+
+#sidebar-menu ul.metismenu {
+  padding-left: 0px !important;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  color: #fff !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  background-color: #fff;
+}
+
+.p-datatable.p-datatable-gridlines:has(.p-datatable-thead):has(.p-datatable-tbody) .p-datatable-tbody > tr > td {
+    border-width: 0 0 1px 1px !important;
+    padding: 0.2rem 0.5rem !important;
+}
+
+.p-datatable.p-datatable-gridlines .p-datatable-thead > tr > th {
+    border-width: 1px 0 1px 1px !important;
+    padding: 0.5rem 0.5rem !important;
+}
+
+.p-inputtext {
+    padding: .47rem .75rem !important;
+}
+
+
+ul.p-dropdown-items {
+  padding-left: 0 !important;
+}
